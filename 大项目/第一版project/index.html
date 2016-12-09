@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>仿-太火鸟-中国火爆的智能硬件孵化平台</title>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/angular-ui-router.min.js"></script>
+    <script src="lib/jquery/jquery-3.1.1.min.js"></script>
+    <script src="lib/artTemplate/artTemplate.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+    <script src="js/app.js"></script>
+    <script src="js/home.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="myapp">
+    <nav class="header main">
+        <div class="newnav grid">
+            <a href="#" class="logobar" title="首页">太火鸟</a>
+            <div class="navbar-collapse">
+                <ul class="navbar-ul pink-a">
+                    <li class="nav-item">
+                        <a href="javascript:;" class="pink-font">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:;" class="">Fiu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:;" class="">Fiu店</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:;" class="">社区</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:;" class="">服务</a>
+                    </li>
+                </ul>
+                <form action="javascript:;" method="get" class="search item">
+                    <div class="search-input">
+                        <input type="text" >
+                        <i class="glyphicon glyphicon-search search-icon"></i>
+                    </div>
+                    <i class="glyphicon glyphicon-search search-btn"></i>
+                </form>
+            </div>
+            <div class="right-bar">
+                <div>
+                    <a href="javascript:;" class="btn down">
+                        下载客户端
+                        <span class="phoneicon glyphicon glyphicon-circle-arrow-down"></span>
+                    </a>
+                    <div>
+                        <div class="Fiu-down">
+                            <img src="images/fiu.jpg" alt="">
+                            <h4>Fiu 浮游</h4>
+                            <p>你在发现 谁在惊呼?</p>
+                            <img src="images/loadewm.jpg" alt="">
+                            <p>
+                                iPhone
+                                <span>·</span>
+                                Andriod
+                            </p>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+                <a href="javascript:;" class="btn">登录</a>
+                <a href="javascript:;" class="btn btn-default">注册</a>
+            </div>
+        </div>
+    </nav>
+    <section class="homepage">
+        <div class="banner">
+            <ul class="banner-in">
+                <li>
+                    <img src="images/page2.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/page3.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/page4.jpg" alt="">
+                </li>
+            </ul>
+            <!--
+            <ul class="banner-in">
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/page2.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/page3.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/page4.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <div class="btns">
+                <a href="javascript:;" class="leftBtn">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="javascript:;" class="rightBtn">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <div class="circles">
+                <span class="current"></span>
+                <span></span>
+                <span></span>
+            </div>
+            -->
+        </div>
+    </section>
+    <section>
+        <div>
+            <a ui-sref="hello">hello</a>
+            <h2 ui-view>c</h2>
+        </div>
+        <div style="height:1100px;width:90%;"></div>
+    </section>
+    <footer>
+        <section class="bodyfoot1"></section>
+        <section class="bodyfoot2"></section>
+    </footer>
+    <!--<script>-->
+        <!--var a = $(window).width();-->
+        <!--alert(a)-->
+    <!--</script>-->
+</body>
+</html>

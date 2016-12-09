@@ -1,0 +1,194 @@
+一：了解bootstrap
+  bootstrap入门
+1.bootstrap简介
+	a.一套丰富的预定义样式表
+	b.一组基于jquery的js插件集
+	c.移动设备优先
+	d.灵活的响应式栅格系统(能够自动适应台式机、平板电脑和手机设备等)
+2.下载bootstrapp
+	a.下载用于生产环境的文件
+	b.下载用于编译css的less源码及插件js源文件
+	c.现在用于编译css的lass源码及插件的js源文件
+	d.bootstrap文件结构
+	e.CDN直接引入
+	
+3.html标准模板
+	a.html5文档结构
+	b.移动设备优先
+	c.bootstrap css引入
+	d.jquery引入
+	e.bootstrap js引入
+4.开发工具
+	a.nodepad++
+	b.deamweaver
+	c.HBuilder
+	d.webstorm
+5.第一个网页
+	a.引用bootstrap
+	b.编写html代码结构
+	c.使用bootstrap样式
+
+二:学会bootstrap栅格布局用法
+     bootstrap栅格系统布局
+1.栅格系统简介
+	a.响应式设计
+	b.栅格实现原理
+		1)一行(row)必须在.container中
+		2）使用行在水平方向创建列组
+		3）具体内容应放置于列(column)内
+		4）内置像row和.col-xs-4(占4列)
+	c.媒体查询
+		@media(max-width:767px){}
+		@media(min-width:768px) and (max-width:991px){}
+		@media(min-width:1200px){}
+2.栅格布局基本用法
+	a.布局容器
+	b.列组合.col-md-*
+	c.列偏移.col-md-offset-*
+	d.列嵌套
+	e.列排序.col-md-push-*
+	.col-md-pull-*	
+3.栅格参数
+	a.跨设备组合定义
+	b.清楚浮动clearfix
+	visible-xs
+4.禁止响应布局
+	a.删除viewpt的meta
+	b. .container设为固定宽度
+	c.对导航移除折叠和展开行为
+
+三：bootstrap排版基础
+1.排版前的基础
+	a.html5文档类型
+	b.移动设备优先
+	c.响应式图片
+	d.排版与链接
+
+2.标题
+	a. H1-H6
+	b. .H1-.H6
+	<small>65% 75%
+3.页面主题
+	a.body全局样式
+	b.p全局样式img- responsive
+	c.对齐方式text-center/right/left  强调文本lead
+4.强调文本
+	a.small
+	b.strong
+	c.em
+	d.cite
+5.缩略语abbr  initialism
+	
+6.地址元素address  
+
+7.引用blockquote
+
+四：列表与代码
+	a.列表
+		1.无序列表
+		2.有序列表
+		3.去点列表 .list-unstyled
+		4.内联列表 .list_inline
+		5.水平列表dl.dl-horizontal
+	b.代码
+		1.<code>显示单行内联代码
+		2.<kbd>显示用户输入代码
+		3.<pre>多行代码块
+		4.<var>变量
+		5.<samp>程序结果
+五：bootstrap表格样式
+	a.基础样式
+	b.带背条纹表格 .table-striped
+	c.带边框.table-border
+	d.悬停.table-hover
+	e.紧凑 .table-condensed
+	f.行样式 .active .success .info
+	g.响应式表格
+六：bootstrap表单样式
+	a.基础表单
+		全局样式
+		.form-control
+		.form-group
+	b.内联表单.form-inline
+	c.横向表单.form-horizontal
+	d.表单控件 input/select/textarea/checkbox&radio
+	e.静态控件
+	f.控件状态：焦点状态  禁用状态 被禁用的fieldset   只读状态  校验状态has-feedback 
+
+七：bootstrap按钮样式
+	a.按钮样式 . btn-success  .info .warning .danger .primary .default .link
+	b.按钮大小  .btn-block   .btn-lg/sm/xs 
+	c.多标签支持  a   div
+	d.活动状态  .active  
+	e.禁用状态  .disable 
+八：图片与辅助样式
+	a.响应式图片 .img-responsive
+	b.图片形状  .img-rounded/circle/thumbnail
+	c.文本样式 text-muted/primary/success/info/warning/danger
+	d.文本背景样式：bg-primary/success/info/waring/danger
+	e.辅助图标  关闭图标.close   向下箭头.caret
+	f.内容浮动  .pull-right 右浮动  .pull-left 左浮动  .clearfix
+	g.显示与隐藏   .show显示   .hidden 隐藏内容
+九：小图标（250个）
+	a.小图标基本用法
+	b.实现原理
+	c.应用场景
+十：bootstrap下拉菜单
+	a.基本用法  .dropdown  .btn  .dropdown-menu
+	b.对齐方式  .dropdown-menu-left/right
+	c.标题  .dropdown-header
+	d.分割线 .divider
+	e.禁用  .disabled
+
+十一：按钮组.btn-group  .btn-group-lg
+	a.基本用法
+	b.按钮工具栏 .btn-toolbar>btn-group
+	c.按钮尺寸设置 .btn-lg/sm/xs
+	d.嵌套分组
+	e.垂直分组	.btn-group-vertical
+	f.自适应分组 .row>col-ms>
+十二：输入框
+	a.基本用法 .input-group>.input-group-addon   
+	b.尺寸设置.input-group-lg/sm/md
+	c.复选框加.input-group-addon>.checkbox  
+	d.按钮加 .input-group>.input-group-btn>.btn
+	e.下拉菜单按作为.input-group>.input-group-btn>.btn dropdown
+	
+十三：导航
+	a.选项卡导航 .nav .nav-tabs
+	b.胶囊式选项卡导航 .nav .nav-pills
+	c.堆叠式导航  .nav .nav-pills  .nav-stacked
+	d.自适应导航 .nav .nav-justified
+	e.分隔符.nav-divider
+	f.禁用.disabled
+	g.二级导航
+
+十四：导航条
+	a.基础导航.navbar .navbar-default
+	b.导航条中的表.navbar-from  方向：.navbar-right
+	c.导航条中的文本、链接、按钮.navbar-text/link/btn
+	d.顶部固定和底部固定.navbar-fixed-top
+	e. .navbar-static-top
+	f.反色导航条.navbar-inverse
+十五:面包屑导航和分页导航
+	a.面包屑.breadcrumb
+	b.分页.pagination>&laquo/&raquo
+	c.翻页pager
+	d.分页大小pagination-lg/sm
+缩略图和警告框
+	a.缩略图.thumbnail
+	b.默认警告框
+	c.可关闭的警告框
+	d.多彩样式警告框
+	e.警告框中的链接
+
+选项卡js
+	.nav nav-tabs>li>a.#pan1||data-toggle=tab
+	.tab-content>.tab-pane#pan1
+
+焦点广告：
+	基本用法：#carousel_container ||.carousel.slide ||data-ride=carousel
+		>.carousel-inner>.item
+		>.carousel-indicators>data-slide-to=0/.. ||data-target=#carousel_container
+		>data-slide=prev || href=#carousel_container ||.left.carousel-control
+		>data-slide=next || href=#carousel_container ||.right.carousel-control
